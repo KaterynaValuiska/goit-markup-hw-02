@@ -7,54 +7,77 @@
 
 
 body {
-    background-color: #ffffff; 
+    background-color: #ffffff;
     color: var(--text-color);
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 400;
-        font-size: 16px;
-        line-height: 24px;
+    font-size: 16px;
+    line-height: 24px;
 }
-ul { list-style: none;
+
+ul {
+    list-style: none;
 }
+
 /* logo webstudio */
-.logo {color: var(--text-color);
+.logo {
+    color: var(--text-color);
     text-decoration: none;
     text-transform: uppercase;
     font-family: 'Raleway';
-        font-style: normal;
-        font-weight: 800;
-        font-size: 18px;
-        line-height: 24px;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 24px;
 }
-.logo:hover {color: var(--accent-color);}
-.logo-web { color: var(--accent-color);
-text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);}
+
+.logo:hover {
+    color: var(--accent-color);
+}
+
+.logo-web {
+    color: var(--accent-color);
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
 
 /* nav */
-.nav-pages { color: var(--title-color);
-text-decoration: none;
+.nav-pages {
+    color: var(--title-color);
+    text-decoration: none;
     font-weight: 500;
     font-size: 16px;
-    line-height: 24px;}
-.nav-pages:hover, .nav-pages:focus {color: var(--accent-color);}
+    line-height: 24px;
+}
+
+.nav-pages:hover,
+.nav-pages:focus {
+    color: var(--accent-color);
+}
+
 .nav-pages.curent {
     color: var(--accent-color);
 }
+
 /* address */
-.link { 
+.link {
     color: var(--text-color);
     font-style: normal;
     text-decoration: none;
 }
-.link:hover { color: var(--accent-color);}
+
+.link:hover {
+    color: var(--accent-color);
+}
 
 /* hero */
-.hero-title {color: #ffffff; 
-background-color: var(--title-color);
-font-weight: 700;
+.hero-title {
+    color: #ffffff;
+    background-color: var(--title-color);
+    font-weight: 700;
     font-size: 56px;
-    line-height: 60px;}
+    line-height: 60px;
+}
 
 /* buttons */
 .button {
@@ -67,21 +90,27 @@ font-weight: 700;
     background-color: var(--btn-color);
     color: var(--accent-color);
 }
+
 .btn-color:hover {
     background-color: var(--accent-color);
     color: #ffffff;
 }
+
 /* section */
 .section {
     color: var(--text-color);
-    
+
 }
-.section-title {color: var(--title-color); 
+
+.section-title {
+    color: var(--title-color);
     font-weight: 700;
     font-size: 36px;
-    line-height: 40px;}
+    line-height: 40px;
+}
+
 .title-small {
     font-weight: 500;
-        font-size: 20px;
-        line-height: 24px;
+    font-size: 20px;
+    line-height: 24px;
 }
