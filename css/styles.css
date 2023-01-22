@@ -3,6 +3,7 @@
     --title-color: #2E2F42;
     --accent-color: #4D5AE5;
     --btn-color: #E7E9FC;
+    --bac-secondary-color: #F4F4FD;
 }
 
 
@@ -80,7 +81,7 @@ ul {
 }
 
 /* buttons */
-.button {
+.btn {
     background-color: var(--accent-color);
     color: #ffffff;
     cursor: pointer
@@ -101,7 +102,7 @@ ul {
     color: var(--text-color);
 
 }
-
+.team { background-color: var(--bac-secondary-color);}
 .section-title {
     color: var(--title-color);
     font-weight: 700;
