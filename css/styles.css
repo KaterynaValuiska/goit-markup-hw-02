@@ -20,6 +20,7 @@ ul {
 
 /* logo webstudio */
 .logo {
+    color: var(--text-color);
     text-decoration: none;
     text-transform: uppercase;
     font-family: 'Raleway';
@@ -82,7 +83,12 @@ ul {
 .btn {
     background-color: var(--accent-color);
     color: #ffffff;
-    cursor: pointer
+    cursor: pointer;
+        font-family: 'Roboto';
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 1.5;
+        letter-spacing: 0.04em;
 }
 
 .btn-color {
