@@ -23,7 +23,6 @@ ul {
 
 /* logo webstudio */
 .logo {
-    color: var(--text-color);
     text-decoration: none;
     text-transform: uppercase;
     font-family: 'Raleway';
@@ -120,5 +119,9 @@ ul {
 
 /* footer */
 .footer {
-    background-color: var(--bac-secondary-color);
+    background-color: var(--title-color);
+    color: #ffffff;
+}
+.footer .logo {
+    color: #ffffff;
 }
