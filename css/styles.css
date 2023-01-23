@@ -11,10 +11,7 @@ body {
     background-color: #ffffff;
     color: var(--text-color);
     font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 400;
     font-size: 16px;
-    line-height: 24px;
 }
 
 ul {
@@ -29,7 +26,7 @@ ul {
     font-style: normal;
     font-weight: 800;
     font-size: 18px;
-    line-height: 24px;
+    line-height: 1.3;
 }
 
 .logo:hover {
@@ -47,7 +44,7 @@ ul {
     text-decoration: none;
     font-weight: 500;
     font-size: 16px;
-    line-height: 24px;
+    line-height: 1.5;
 }
 
 .nav-pages:hover,
@@ -78,7 +75,7 @@ ul {
     
     font-weight: 700;
     font-size: 56px;
-    line-height: 60px;
+    line-height: 1;
 }
 
 /* buttons */
@@ -108,13 +105,13 @@ ul {
     color: var(--title-color);
     font-weight: 700;
     font-size: 36px;
-    line-height: 40px;
+    line-height: 1.1;
 }
 
 .title-small {
     font-weight: 500;
     font-size: 20px;
-    line-height: 24px;
+    line-height: 1.2;
 }
 
 /* footer */
