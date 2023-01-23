@@ -72,9 +72,11 @@ ul {
 }
 
 /* hero */
+.hero {
+    background-color: var(--title-color);}
 .hero-title {
     color: #ffffff;
-    background-color: var(--title-color);
+    
     font-weight: 700;
     font-size: 56px;
     line-height: 60px;
