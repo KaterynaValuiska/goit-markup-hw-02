@@ -10,7 +10,7 @@
 body {
     background-color: #ffffff;
     color: var(--text-color);
-    font-family: 'Roboto';
+    font-family: 'Roboto', sans-serif;
     font-size: 16px;
 }
 
@@ -23,7 +23,7 @@ ul {
     color: var(--text-color);
     text-decoration: none;
     text-transform: uppercase;
-    font-family: 'Raleway';
+    font-family: 'Raleway', sans-serif;
     font-style: normal;
     font-weight: 800;
     font-size: 18px;
@@ -84,7 +84,7 @@ ul {
     background-color: var(--accent-color);
     color: #ffffff;
     cursor: pointer;
-        font-family: 'Roboto';
+        font-family: 'Roboto', sans-serif;
         font-weight: 500;
         font-size: 16px;
         line-height: 1.5;
